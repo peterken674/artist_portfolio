@@ -99,6 +99,10 @@ nav>a:hover {
         font-size: 1em;
         color: white;
       }
+      .pencil:hover,.water:hover,.oil:hover{
+        opacity: 0.6;
+      }
+
       #pencil-art-gallery,#water-art-gallery,#oil-art-gallery{
           padding-top: 40px;
           margin-left: 80px;
@@ -152,7 +156,7 @@ nav>a:hover {
           display: block;
           border-radius: 10px;
         }
-        
+        /* oil art gallery */
         .pencil_gallery__item--1 {
           grid-column-start: 1;
           grid-column-end: 3;
@@ -195,6 +199,9 @@ nav>a:hover {
           grid-row-start: 4;
           grid-row-end: 7;
         }
+        /* end of pencil art gallery */
+
+        /* water art gallery */
         .water_gallery__item--1 {
           grid-column-start: 1;
           grid-column-end: 5;
@@ -237,6 +244,10 @@ nav>a:hover {
           grid-row-start: 4;
           grid-row-end: 7;
         }
+        /* end of water art gallery */
+
+
+        /* oil art gallery */
         .oil_gallery__item--1 {
           grid-column-start: 1;
           grid-column-end: 3;
@@ -279,3 +290,4 @@ nav>a:hover {
           grid-row-start: 4;
           grid-row-end: 7;
         }
+        /* end of oil art gallery */
