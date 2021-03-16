@@ -51,19 +51,125 @@ nav>a:hover {
 
 #rates{
       position: relative;
-      top: 160px;
+      top: 180px;
       display: flex;
       width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
       height: 300px;
       align-items: flex-end;
       justify-content: space-evenly;
 }
-#rates>div>div{
-      width: 100px;
-      height: 100px;
+#rates>div>p {
+      color: #683B2B;
+}
+#a5>div{
+      width: 60px;
+      height: 80px;
       background-color: white;
       box-shadow: 1px 1px 4px gray;
 }
-#rates>div>p {
+#a4>div {
+      width: 80px;
+      height: 120px;
+      background-color: white;
+      box-shadow: 1px 1px 4px gray;
+}
+#a3>div {
+      width: 120px;
+      height: 160px;
+      background-color: white;
+      box-shadow: 1px 1px 4px gray;
+}
+#a2>div {
+      width: 160px;
+      height: 240px;
+      background-color: white;
+      box-shadow: 1px 1px 4px gray;
+}
+#text{
+      position: relative;
+      top: 220px;
+      width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+      font-size: 18px;
+      font-weight: lighter;
+      font-family:'Open Sans', sans-serif;
+      color: #5e5e5e;
+}
+
+#commissions{
+      border-top: 1px solid #AD8800;
+      width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+      height: 300px;
+      position: absolute;
+      top: 650px;
+      text-transform: uppercase;
       color: #683B2B;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+#comm_art{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+}
+#l3{
+      background-image: url("https://images.unsplash.com/photo-1571115764595-644a1f56a55c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFpbnRpbmd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border: 5px solid #AD8800;
+      box-shadow: 2px 1px 5px gray;
+      height: 220px;
+      width: 220px;
+}
+#l2{
+      background-image: url("https://images.unsplash.com/photo-1580089056071-11f31b94fefe?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fHBhaW50aW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border: 5px solid #AD8800;
+      box-shadow: 2px 1px 5px gray;
+      height: 170px;
+      width: 170px;
+      opacity: 0.4;
+}
+#l4{
+      background-image: url("https://www.artyfactory.com/portraits/pencil-portraits/images/pencil-portrait-10.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border: 5px solid #AD8800;
+      box-shadow: 2px 1px 5px gray;
+      height: 170px;
+      width: 170px;
+      opacity: 0.4;
+}
+#l1{
+      background-image: url("https://paintingportraittips.com/wp-content/uploads/2018/06/pp-1000x1200.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border: 5px solid #AD8800;
+      box-shadow: 2px 1px 5px gray;
+      height: 120px;
+      width: 120px;
+      opacity: 0.1;
+}
+#l5 {
+      background-image: url("https://paintingportraittips.com/wp-content/uploads/2018/08/Puck-2-IMG_7709-1080x1200.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border: 5px solid #AD8800;
+      box-shadow: 2px 1px 5px gray;
+      height: 120px;
+      width: 120px;
+      opacity: 0.1;
 }
