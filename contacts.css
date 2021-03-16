@@ -80,5 +80,23 @@ footer{
 }
 .socialmedia{
     padding-top: 150px;
-padding-right: 800px;
+padding-right: 200px;
 }
+.map{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-left: 200px;
+}
+.rights{
+    padding-top: 350px;
+    position: fixed;
+}
+.vl{
+    border-left: 6px solid #AD8800;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    margin-left: -223px;
+    margin-top: 10px;
+
+  }
