@@ -7,13 +7,16 @@ header {
   color: white;
   background-color: #AD8800;
   position: absolute;
-  height: 100px;
+  height: 140px;
   top: 0px;
   left: 0px;
   right: 0px;
   display: flex;
   justify-content: space-between;
   padding: 20px;
+}
+#head{
+  padding-bottom: 160px;
 }
 
 h1 {
@@ -52,13 +55,15 @@ nav>a:hover {
   margin-bottom: 5px;
   border-bottom: 2px solid white;
 }
+
+/* END OF HEADER SECTION */
     #art-banner{
         height: 400px;
+        padding-top: 100px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         overflow: auto;
-        padding-top: 80px;
       }
       #pencil-art{
           width:25%;
@@ -95,7 +100,8 @@ nav>a:hover {
       hr {
           width: 40%;
           margin-left: auto;
-          margin-top: 80px;
+          margin-top: 160px;
+          margin-bottom: 160px;
           margin-right: auto;
           height: 8px;
           background-color:#AD8800;
@@ -196,10 +202,10 @@ nav>a:hover {
         }
         
         .water_gallery__item--3 {
-          grid-column-start: 5;
-          grid-column-end: 7;
-          grid-row-start: 1;
-          grid-row-end: 4;
+          grid-column-start: 1;
+          grid-column-end: 3;
+          grid-row-start: 4;
+          grid-row-end: 7;
         }
         
         .water_gallery__item--4 {
@@ -214,12 +220,12 @@ nav>a:hover {
           grid-column-start: 7;
           grid-column-end: 9;
           grid-row-start: 1;
-          grid-row-end: 4;
+          grid-row-end: 7;
         }
         
         .water_gallery__item--6 {
           grid-column-start: 5;
-          grid-column-end: 9;
+          grid-column-end: 7;
           grid-row-start: 4;
           grid-row-end: 7;
         }
