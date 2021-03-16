@@ -160,7 +160,7 @@ nav>a:hover {
       box-shadow: 2px 1px 5px gray;
       height: 120px;
       width: 120px;
-      opacity: 0.1;
+      opacity: 0.2;
 }
 #l5 {
       background-image: url("https://paintingportraittips.com/wp-content/uploads/2018/08/Puck-2-IMG_7709-1080x1200.jpg");
@@ -171,10 +171,25 @@ nav>a:hover {
       box-shadow: 2px 1px 5px gray;
       height: 120px;
       width: 120px;
-      opacity: 0.1;
+      opacity: 0.2;
 }
 .hor_scroll{
       color: #AD8800;
       font-size: 25px;
       font-weight: lighter;
+}
+
+footer{
+      background-color: #AD8800;
+      width: 100%;
+      height: 30px;
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: small;
 }
