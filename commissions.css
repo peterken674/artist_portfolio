@@ -1,9 +1,9 @@
-body {
+body{
       background-color: #FAF6F2;
 }
 
 /* HEADER SECTION */
-header {
+header{
       color: white;
       background-color: #AD8800;
       position: absolute;
@@ -15,35 +15,30 @@ header {
       justify-content: space-between;
       padding: 20px;
 }
-
-h1 {
+h1{
       position: relative;
       margin-top: 50px;
       font-size: 50px;
       font-family: 'Rum Raisin',
-            sans-serif;
+      sans-serif;
       text-transform: uppercase;
 }
-
-nav {
+nav{
       margin-top: 85px;
       font-family: 'Roboto', sans-serif;
 }
-
-nav>a {
+nav>a{
       color: white;
       text-decoration: none;
       text-transform: uppercase;
       margin-right: 10px;
 }
-
 nav>a:visited {
       color: white;
       text-decoration: none;
       text-transform: uppercase;
       margin-right: 10px;
 }
-
 nav>a:hover {
       color: white;
       text-decoration: none;
@@ -52,5 +47,23 @@ nav>a:hover {
       margin-bottom: 5px;
       border-bottom: 2px solid white;
 }
-
 /* END OF HEADER SECTION */
+
+#rates{
+      position: relative;
+      top: 160px;
+      display: flex;
+      width: 70%;
+      height: 300px;
+      align-items: flex-end;
+      justify-content: space-evenly;
+}
+#rates>div>div{
+      width: 100px;
+      height: 100px;
+      background-color: white;
+      box-shadow: 1px 1px 4px gray;
+}
+#rates>div>p {
+      color: #683B2B;
+}
