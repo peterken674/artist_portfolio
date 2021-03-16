@@ -51,7 +51,7 @@ nav>a:hover {
 
 #rates{
       position: relative;
-      top: 180px;
+      top: 170px;
       display: flex;
       width: 70%;
       margin-left: 15%;
@@ -89,7 +89,7 @@ nav>a:hover {
 }
 #text{
       position: relative;
-      top: 220px;
+      top: 180px;
       width: 70%;
       margin-left: 15%;
       margin-right: 15%;
@@ -106,7 +106,7 @@ nav>a:hover {
       margin-right: 15%;
       height: 300px;
       position: absolute;
-      top: 650px;
+      top: 610px;
       text-transform: uppercase;
       color: #683B2B;
       display: flex;
