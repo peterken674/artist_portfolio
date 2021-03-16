@@ -56,5 +56,9 @@ nav>a:hover {
 /* END OF HEADER SECTION */
 .image{
       padding-top: 205px;
-      padding-left: 102.5px;
+      padding-left: 50.5px;
+}
+.paragraph{
+      float: right;
+      flex-wrap: wrap;
 }
