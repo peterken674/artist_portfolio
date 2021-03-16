@@ -1,0 +1,53 @@
+
+/* HEADER SECTION */
+header {
+    color: white;
+    background-color: #AD8800;
+    position: absolute;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h1 {
+    position: relative;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: 'Rum Raisin',
+          sans-serif;
+    text-transform: uppercase;
+}
+
+nav {
+    margin-top: 85px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+nav>a:visited {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+nav>a:hover {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid white;
+}
+
+/* END OF HEADER SECTION */
