@@ -90,15 +90,31 @@ nav>a:hover {
     }
 
 p {
-    font-family: font-family:'Open Sans', sans-serif;
-    font-weight:bold;
+    font-family:'Open Sans', sans-serif;
+    font-style: normal;
+    color: black
+
 }
 h3 {
     text-align: center;
 }
 .carts{
-background-color:#683B2B; 
+background-color:#683B2B;
 }
 .view-cart{
     text-align: center;
+    background-color: #683B2B;
+    background-size: 0%;
+    
+}
+.carts>p{
+    color: cornsilk;
+}
+.view-cart>p{
+    color: cornsilk;
+}
+.names>p{
+    font: italic;
+    font-weight: lighter;
+    
 }
