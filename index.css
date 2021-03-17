@@ -25,6 +25,20 @@ h1 {
       text-transform: uppercase;
 }
 
+h1>a:link{
+      font-family: 'Rum Raisin',
+      sans-serif;
+      text-transform: uppercase;
+      color: white;
+      text-decoration: none;
+}
+h1>a:visited {
+      font-family: 'Rum Raisin',
+            sans-serif;
+      text-transform: uppercase;
+      color: white;
+      text-decoration: none;
+}
 nav {
       margin-top: 85px;
       font-family: 'Roboto', sans-serif;
@@ -57,11 +71,11 @@ nav>a:hover {
 #content{
       display: flex;
       position: relative;
-      top: 165px;
+      top: 200px;
       width: 70%;
       margin-left: 15%;
       margin-right: 15%;
-      margin-bottom: 100px;
+      margin-bottom: 250px;
       justify-content: space-evenly;
 }
 #image{
@@ -79,6 +93,8 @@ nav>a:hover {
       width: 60%;
       font-family: 'Open Sans', sans-serif;
       font-size: 18px;
+      line-height: 1.5;
+      font-weight: 100;
       text-justify: auto;
       color: #5e5e5e;
 }

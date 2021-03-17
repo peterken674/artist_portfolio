@@ -16,7 +16,7 @@ header {
   padding: 20px;
 }
 #head{
-  padding-bottom: 160px;
+  margin-bottom: 160px;
 }
 
 h1 {
@@ -27,7 +27,21 @@ h1 {
         sans-serif;
   text-transform: uppercase;
 }
+h1>a:link {
+  font-family: 'Rum Raisin',
+    sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
 
+h1>a:visited {
+  font-family: 'Rum Raisin',
+    sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
 nav {
   margin-top: 85px;
   font-family: 'Roboto', sans-serif;
