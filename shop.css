@@ -22,6 +22,22 @@ h1 {
     text-transform: uppercase;
 }
 
+h1>a:link {
+    font-family: 'Rum Raisin',
+        sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+h1>a:visited {
+    font-family: 'Rum Raisin',
+        sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
 nav {
     margin-top: 85px;
     font-family: 'Roboto', sans-serif;
