@@ -96,11 +96,6 @@ footer{
     padding-top: 150px;
 padding-right: 200px;
 }
-.map{
-    padding-top: 35px;
-    padding-bottom: 35px;
-    margin-left: 200px;
-}
 .rights{
     padding-top: 350px;
     position: fixed;
@@ -112,5 +107,15 @@ padding-right: 200px;
     left: 50%;
     margin-left: -223px;
     margin-top: 10px;
+
+  }
+  .mapouter{
+    height: 0px;
+    /* The height is 400 pixels */
+    width: 600px;
+    /* The width is the width of the web page */
+    margin-top: 15px;
+    margin-right: 5px;
+
 
   }
