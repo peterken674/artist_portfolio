@@ -112,6 +112,7 @@ nav>a:hover {
     color: #AD8800;
     font-size: 25px;
     font-weight: lighter;
+    
 
     
 }
@@ -119,7 +120,9 @@ nav>a:hover {
 p {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
-    color: black
+    color: black;
+    font-weight: bold;
+    
 }
 
 h3 {
@@ -135,23 +138,33 @@ h3 {
 .view-cart {
     text-align: center;
     background-color: #683B2B;
-    background-size: 0%;
+    width: 15%;
+    height: 10%;
+    margin-left: 40%;
+    margin-right: 25%;
+    border: 10%;
 
 }
 
 .carts>p {
     color: cornsilk;
+    text-align: center;
+    border-radius: 50px;
+    background-position: center;
 }
 
 .view-cart>p {
     color: cornsilk;
     font: small;
     
+    
+    
 }
 
 .names>p {
     font: italic;
     font-weight: lighter;
+    font-size: small;
 
 
 }
