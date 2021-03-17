@@ -1,0 +1,307 @@
+body {
+  background-color: #FAF6F2;
+}
+
+/* HEADER SECTION */
+header {
+  color: white;
+  background-color: #AD8800;
+  position: absolute;
+  height: 140px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+#head{
+  padding-bottom: 160px;
+}
+
+h1 {
+  position: relative;
+  margin-top: 50px;
+  font-size: 50px;
+  font-family: 'Rum Raisin',
+        sans-serif;
+  text-transform: uppercase;
+}
+
+nav {
+  margin-top: 85px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav>a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+nav>a:visited {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+nav>a:hover {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+
+/* END OF HEADER SECTION */
+    #art-banner{
+        height: 400px;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        overflow: auto;
+      }
+      .pencil{
+          width:25%;
+          background-image: url(images/pencil.jpg);
+          border-radius: 10px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          font-style: oblique;
+          text-decoration: none;
+      }
+      .water{
+          width: 25%;
+          background-image: url(images/water.jpg);
+          border-radius: 10px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          font-style: oblique;
+          text-decoration: none;
+      }
+      .oil{
+        width: 25%;
+        background-image: url(images/oil.jpg);
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-style: oblique;
+        text-decoration: none;
+      }
+      .pencil,.water,.oil{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1em;
+        color: white;
+      }
+      .pencil:hover,.water:hover,.oil:hover{
+        opacity: 0.6;
+      }
+
+      #pencil-art-gallery,#water-art-gallery,#oil-art-gallery{
+          padding-top: 40px;
+          margin-left: 80px;
+          margin-right: 80px;
+      }
+      hr {
+          width: 40%;
+          margin-left: auto;
+          margin-top: 160px;
+          margin-bottom: 160px;
+          margin-right: auto;
+          height: 8px;
+          background-color:#AD8800;
+          opacity: 1.1;
+        }
+        h2{
+            color: #683B2B;
+        }
+        *,
+        *::after,
+        *::before {
+          margin: 0;
+          padding: 0;
+          box-sizing: inherit; 
+        }
+        
+        html {
+          box-sizing: border-box;
+          font-size: 20px;
+        }
+        
+        body {
+          font-family: sans-serif;
+        }
+        
+        .container {
+          margin: 2rem auto; 
+        }
+        
+        .gallery {
+          display: grid;
+          grid-template-columns: repeat(8, 1fr);
+          grid-template-rows: repeat(6, 5vw);
+          grid-gap: 1.5rem; 
+        }
+        
+        .gallery__img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+          border-radius: 10px;
+        }
+        /* oil art gallery */
+        .pencil_gallery__item--1 {
+          grid-column-start: 1;
+          grid-column-end: 3;
+          grid-row-start: 1;
+          grid-row-end: 7;
+        }
+        
+        .pencil_gallery__item--2 {
+          grid-column-start: 3;
+          grid-column-end: 5;
+          grid-row-start: 1;
+          grid-row-end: 4;
+        }
+        
+        .pencil_gallery__item--3 {
+          grid-column-start: 5;
+          grid-column-end: 7;
+          grid-row-start: 1;
+          grid-row-end: 4;
+        }
+        
+        .pencil_gallery__item--4 {
+          grid-column-start: 3;
+          grid-column-end: 5;
+          grid-row-start: 4;
+          grid-row-end: 7;
+    
+        }
+        
+        .pencil_gallery__item--5 {
+          grid-column-start: 7;
+          grid-column-end: 9;
+          grid-row-start: 1;
+          grid-row-end: 4;
+        }
+        
+        .pencil_gallery__item--6 {
+          grid-column-start: 5;
+          grid-column-end: 9;
+          grid-row-start: 4;
+          grid-row-end: 7;
+        }
+        /* end of pencil art gallery */
+
+        /* water art gallery */
+        .water_gallery__item--1 {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 1;
+          grid-row-end: 4;
+        }
+        
+        .water_gallery__item--2 {
+          grid-column-start: 5;
+          grid-column-end: 7;
+          grid-row-start: 1;
+          grid-row-end: 4;
+        }
+        
+        .water_gallery__item--3 {
+          grid-column-start: 1;
+          grid-column-end: 3;
+          grid-row-start: 4;
+          grid-row-end: 7;
+        }
+        
+        .water_gallery__item--4 {
+          grid-column-start: 3;
+          grid-column-end: 5;
+          grid-row-start: 4;
+          grid-row-end: 7;
+    
+        }
+        
+        .water_gallery__item--5 {
+          grid-column-start: 7;
+          grid-column-end: 9;
+          grid-row-start: 1;
+          grid-row-end: 7;
+        }
+        
+        .water_gallery__item--6 {
+          grid-column-start: 5;
+          grid-column-end: 7;
+          grid-row-start: 4;
+          grid-row-end: 7;
+        }
+        /* end of water art gallery */
+
+
+        /* oil art gallery */
+        .oil_gallery__item--1 {
+          grid-column-start: 1;
+          grid-column-end: 3;
+          grid-row-start: 1;
+          grid-row-end: 7;
+        }
+        
+        .oil_gallery__item--2 {
+          grid-column-start: 7;
+          grid-column-end: 9;
+          grid-row-start: 4;
+          grid-row-end: 7;
+        }
+        
+        .oil_gallery__item--3 {
+          grid-column-start: 3;
+          grid-column-end: 5;
+          grid-row-start: 4;
+          grid-row-end: 7;
+        }
+        
+        .oil_gallery__item--4 {
+          grid-column-start: 3;
+          grid-column-end: 5;
+          grid-row-start: 1;
+          grid-row-end: 4;
+    
+        }
+        
+        .oil_gallery__item--5 {
+          grid-column-start: 5;
+          grid-column-end: 9;
+          grid-row-start: 1;
+          grid-row-end: 4;
+        }
+        
+        .oil_gallery__item--6 {
+          grid-column-start: 5;
+          grid-column-end: 7;
+          grid-row-start: 4;
+          grid-row-end: 7;
+        }
+        /* end of oil art gallery */
+        /* FOOTER */
+        footer{
+          background-color: #DED1BD;
+          width: 100%;
+          height: 30px;
+          left: 0px;
+          right: 0px;
+          bottom: 0px;
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: small;
+        }
