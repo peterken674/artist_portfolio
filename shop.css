@@ -92,7 +92,7 @@ nav>a:hover {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-top: 15%;
+    margin-top: 7%;
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
@@ -112,6 +112,7 @@ nav>a:hover {
     color: #AD8800;
     font-size: 25px;
     font-weight: lighter;
+
     
 }
 
@@ -127,6 +128,8 @@ h3 {
 
 .carts {
     background-color: #683B2B;
+    font-size: smaller;
+    border-radius: 5%;
 }
 
 .view-cart {
@@ -142,10 +145,13 @@ h3 {
 
 .view-cart>p {
     color: cornsilk;
+    font: small;
+    
 }
 
 .names>p {
     font: italic;
     font-weight: lighter;
+
 
 }
