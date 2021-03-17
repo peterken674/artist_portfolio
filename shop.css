@@ -171,3 +171,9 @@ h3 {
 
 
 }
+#pics>.hor_scroll{
+    margin-top: 6%;
+}
+#Originals-pics>.hor_scroll{
+    margin-bottom: 10%;
+}
