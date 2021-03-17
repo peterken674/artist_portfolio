@@ -52,33 +52,53 @@ nav>a:hover {
 
 /* END OF HEADER SECTION */
 
-#originals {
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-between;
-margin-top: 15%;
 
 
-}
-#prints {
+ #originals{
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     margin-top: 15%;
+     width: 70%;
+     margin-left: 15%;
+     margin-right: 15%;
+     
+ }
+ #originals>#Originals-pics{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 5%;
+    justify-content: space-evenly;
+    }
+    #pictures {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-top: 15%;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
 
+    
+    }
+     
+    #pictures>#pics {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+
+    }
+
+p {
+    font-family: font-family:'Open Sans', sans-serif;
+    font-weight:bold;
 }
 h3 {
-    display: flex;
     text-align: center;
-    text-align: center;
-    padding-bottom: 30%;
-    
-    
-    
 }
-p {
-    font-style: normal;
-    font-weight: bold;
+.carts{
+background-color:#683B2B; 
+}
+.view-cart{
+    text-align: center;
 }
