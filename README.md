@@ -3,13 +3,14 @@
 #### By **Peter Kennedy**
 ## Description
 
+
 ## Setup/Installation Requirements
-
 ## Known Bugs
-
+* The website is not responsive.
 ## Technologies Used
 - HTML
 - CSS
+- Git
 ## Support and contact details
 If you have any queries or in case of a fire, you can reach the developer via [peterken.ngugi@gmail.com](mailto:peterken.ngugi@gmail.com)
 ### License
