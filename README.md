@@ -5,6 +5,7 @@
 
 
 ## Setup/Installation Requirements
+* All you need to access this website is to follow this link
 ## Known Bugs
 * The website is not responsive.
 ## Technologies Used
