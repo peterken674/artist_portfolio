@@ -25,13 +25,14 @@ h1 {
       text-transform: uppercase;
 }
 
-h1>a:link{
+h1>a:link {
       font-family: 'Rum Raisin',
-      sans-serif;
+            sans-serif;
       text-transform: uppercase;
       color: white;
       text-decoration: none;
 }
+
 h1>a:visited {
       font-family: 'Rum Raisin',
             sans-serif;
@@ -39,6 +40,7 @@ h1>a:visited {
       color: white;
       text-decoration: none;
 }
+
 nav {
       margin-top: 85px;
       font-family: 'Roboto', sans-serif;
@@ -68,7 +70,7 @@ nav>a:hover {
 }
 
 /* END OF HEADER SECTION */
-#content{
+#content {
       display: flex;
       position: relative;
       top: 200px;
@@ -78,7 +80,8 @@ nav>a:hover {
       margin-bottom: 250px;
       justify-content: space-evenly;
 }
-#image{
+
+#image {
       background-image: url("https://magazine.artland.com/wp-content/uploads/2018/01/cindy-sherman-59-600x892.jpg");
       background-position: center;
       background-repeat: no-repeat;
@@ -89,7 +92,8 @@ nav>a:hover {
       margin-top: 15px;
 
 }
-#paragraph{
+
+#paragraph {
       width: 60%;
       font-family: 'Open Sans', sans-serif;
       font-size: 18px;
@@ -99,18 +103,18 @@ nav>a:hover {
       color: #5e5e5e;
 }
 
-        /* FOOTER */
-        footer {
-              position: fixed;
-              background-color: #DED1BD;
-              width: 100%;
-              height: 30px;
-              left: 0;
-              right: 0;
-              bottom: 0;
-              color: white;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              font-size: small;
-        }
+/* FOOTER */
+footer {
+      position: fixed;
+      background-color: #DED1BD;
+      width: 100%;
+      height: 30px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: small;
+}
