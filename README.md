@@ -1,6 +1,7 @@
 # Artist Portfolio
 #### A portfolio website for an artist,17th March,2021.
 #### By **Peter Kennedy**
+<a href="https://github.com/FestusMutie">Festus Mutie</a>
 ## Description
 This is a portfolio website for an artsist by the name of Koffee Omolide.He is a reknown and reputed artist majoring in making of different types of artwork.In his gallery,we find a variety of artwork like pencil art,oil art and water art.The artwork comes in different sizes like A2,A3,A4 and A5,and prices depends on the size of artwork.
 
